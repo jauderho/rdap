@@ -6,7 +6,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/jarcoal/httpmock v1.2.0
 	github.com/mitchellh/go-homedir v1.1.0
-	golang.org/x/crypto v0.0.0-20220924013350-4ba4fb4dd9e7
+	golang.org/x/crypto v0.0.0-20221010152910-d6f0a8c073c2
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
 
