@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	github.com/jarcoal/httpmock v1.2.0
+	github.com/jarcoal/httpmock v1.3.0
 	github.com/mitchellh/go-homedir v1.1.0
 	golang.org/x/crypto v0.5.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
