@@ -21,11 +21,7 @@ func TestDiskCache(t *testing.T) {
 	defer os.RemoveAll(dir)
 
 	rdapDir := filepath.Join(dir, ".openrdap")
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> hosting-de-labs/master
 	m1 := NewDiskCache()
 	m1.Dir = rdapDir
 
@@ -105,7 +101,3 @@ func TestDiskCache(t *testing.T) {
 		t.Fatalf("loaded2(%v) != asn2(%v)", loaded2, asn2)
 	}
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> hosting-de-labs/master
