@@ -82,7 +82,7 @@ func TestVCardExample(t *testing.T) {
 
 	expectedTel0 := &VCardProperty{
 		Name:       "tel",
-		Parameters: map[string][]string{"type": {"work", "voice"}, "pref": {"1"}},
+		Parameters: map[string][]string{"type": []string{"work", "voice"}, "pref": []string{"1"}},
 		Type:       "uri",
 		Value:      "tel:+1-418-656-9254;ext=102",
 	}
@@ -143,7 +143,10 @@ func TestVCardQuickAccessors(t *testing.T) {
 		j.Tel(),
 		j.Fax(),
 		j.Email(),
+<<<<<<< HEAD
 		j.Org(),
+=======
+>>>>>>> hosting-de-labs/master
 	}
 
 	expected := []string{
@@ -155,10 +158,16 @@ func TestVCardQuickAccessors(t *testing.T) {
 		"QC",
 		"G1V 2M2",
 		"Canada",
+<<<<<<< HEAD
 		"tel:+1-418-656-9254;ext=102",
 		"",
 		"simon.perreault@viagenie.ca",
 		"Viagenie",
+=======
+		"+1-418-656-9254;ext=102",
+		"",
+		"simon.perreault@viagenie.ca",
+>>>>>>> hosting-de-labs/master
 	}
 
 	if !reflect.DeepEqual(got, expected) {

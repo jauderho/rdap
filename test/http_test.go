@@ -5,8 +5,13 @@
 package test
 
 import (
+<<<<<<< HEAD
 	"strings"
 	"testing"
+=======
+	"testing"
+	"strings"
+>>>>>>> hosting-de-labs/master
 )
 
 func TestSmoke(t *testing.T) {

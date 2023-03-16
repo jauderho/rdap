@@ -39,3 +39,7 @@ func findTestDataPath() string {
 
 	return path.Join(dir, "testdata")
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> hosting-de-labs/master
