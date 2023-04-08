@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/openrdap/rdap/bootstrap"
+	"github.com/jauderho/rdap/bootstrap"
 )
 
 type Response struct {

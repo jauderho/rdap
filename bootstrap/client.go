@@ -101,7 +101,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/openrdap/rdap/bootstrap/cache"
+	"github.com/jauderho/rdap/bootstrap/cache"
 )
 
 // A RegistryType represents a bootstrap registry type.

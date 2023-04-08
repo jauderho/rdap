@@ -7,7 +7,7 @@ package bootstrap
 import (
 	"testing"
 
-	"github.com/openrdap/rdap/test"
+	"github.com/jauderho/rdap/test"
 )
 
 func TestServiceProviderRegistryLookups(t *testing.T) {
