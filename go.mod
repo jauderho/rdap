@@ -3,7 +3,7 @@ module github.com/openrdap/rdap
 go 1.19
 
 require (
-	github.com/alecthomas/kingpin/v2 v2.3.2
+	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/davecgh/go-spew v1.1.1
 	github.com/jarcoal/httpmock v1.3.1
 	github.com/mitchellh/go-homedir v1.1.0
