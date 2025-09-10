@@ -1,13 +1,15 @@
 module github.com/openrdap/rdap
 
-go 1.23.7
+go 1.24.0
+
+toolchain go1.24.2
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/davecgh/go-spew v1.1.1
 	github.com/jarcoal/httpmock v1.4.1
 	github.com/mitchellh/go-homedir v1.1.0
-	golang.org/x/crypto v0.41.0
+	golang.org/x/crypto v0.42.0
 )
 
 require (
